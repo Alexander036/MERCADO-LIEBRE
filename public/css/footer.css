@@ -1,8 +1,8 @@
+@media screen and (max-width: 368px) {
 .footer-home {
-    margin-top: 15px;
+    margin-top: 6px;
     text-align: center;
     background-color: var(--Grisclaro);
-   
     padding: 22px;
 }
 .footer-home section {
@@ -38,3 +38,25 @@
     color: var(--Grisoscuro);
     font-weight: lighter;
 }
+}
+
+/*Tablet*/
+
+@media  (min-width: 767px) and (max-width : 1440px) {
+
+    .footer-home{}
+    .footer-home section{}
+    .footer-home section i{}
+    .footer-home section h4{}
+    .footer-home section article{}
+    .footer-home section article h5{}
+    .footer-home p {}
+
+}
+
+/*Desktop*/
+
+@media  (min-width:1025px ) {}
+    
+
+
