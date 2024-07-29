@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "expess": "^0.0.1-security",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
   },
   "name": "mercado_liebre",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

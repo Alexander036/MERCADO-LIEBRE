@@ -1,312 +1,202 @@
-@media screen and (max-width: 368px) {
+.header-home {}
+
+.header-home img {
+
+    width: 42%;
+
+    margin: 20px 0 -1px 10px;
+}
+
+.header-home form {
+    display: flex;
+    justify-content: end;
+    /* align-items: start; */
+    width: 46%;
+    margin-left: 49%;
+    position: relative;
+    top: -44px;
+}
+
+.header-home form input {
+
+    padding: 5px;
+
+    width: 356%;
+
+    border-radius: 5px;
+
+    border: none;
+
+    /* display: inline; */
+}
 
 
-    .header-home {}
-
-    .header-home img {
-
-        width: 177px;
-
-        margin: 33px 0 10px 30px;
-    }
-
-    .header-home form input {
-        width: 79%;
-        height: 82%;
-        margin: 10px 0px 0px 30px;
-        font-size: 18px;
-    }
-
-    .header-home .logo-busqueda {
-        border: 1px solid black;
-        background-color: var(--Grisclaro);
-        width: 27px;
-        height: 27px;
-        margin: 1px 0px 10px 30px;
-        padding-left: 0.5px;
-        text-align: center;
-        line-height: 27px;
-    }
+.header-home .logo-busqueda {
+    position: relative;
+    left: -19px;
+    background-color: white;
+}
 
 
-    .header-home .logo-busqueda i {
-        font-size: 16px;
-    }
+.header-home .logo-busqueda i {
+    font-size: 16px;
+    color: var(--Grisoscuro);
+    margin-top: 4px;
+    /* margin-left: 10px; */
+}
 
-    .header-home h4 {
-        padding-left: 64px;
-        display: inline;
-        font-size: var(--cuerpo-de-t);
-        font-weight: normal;
-    }
+.header-home h4 {
+    padding-left: 21px;
+    display: inline-block;
+    font-size: var(--cuerpo-de-t);
+    font-weight: normal;
+}
 
-    .header-home h4 i {
-        display: inline;
-    }
+.header-home h4 i {
+    display: inline;
+}
 
-    .header-home nav ul {
-        list-style: none;
-        padding: 26px 0 0 0;
-        padding-bottom: 16px;
-        display: none;
-    }
-
-
-    .header-home nav ul li a {
-        color: black;
-        text-decoration: none;
-        font-size: var(--cuerpo-de-t);
-
-    }
-
-    .header-home nav .segunda-lista i {
-        display: inline;
-    }
-
-    .burger-menu {
-        background-color: var(--celeste);
-        text-align: center;
-        width: 50px;
-        height: 50px;
-        margin-left: 41%;
-        margin-top: 10px;
-        border-radius: 12px;
-    }
-
-    .burger-menu i {
-        padding-top: 11px;
-        color: var(--Grisclaro);
-        font-size: 30px;
-    }
-
-    .header-home figure img {
-        display: block;
-        width: 100%;
-        margin: 0px;
-        padding-top: 10px;
-    }
+.header-home nav ul {
+    list-style: none;
+    padding: 26px 0 0 0;
+    padding-bottom: 16px;
+    display: none;
+}
 
 
-    /*main*/
-    .main-home {
-
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .main-home section {
-        margin: 5px 0px 5px 0px;
-        background-color: var(--fondo);
-    }
-
-    .main-home section h4 {
-        font-size: var(--titulares);
-
-    }
-
-    .main-home article {
-
-        border-top: 1px solid #ebebeb;
-        padding: 15px;
-        margin-bottom: 10px;
-        box-shadow: none;
-    }
-
-    .main-home section img {
-        max-width: 100%;
-        height: auto;
-
-    }
-
-    .main-home section article {}
-
-    .main-home section article div {
-        width: 33px;
-        height: 33px;
-        border: 1px solid var(--Verde);
-        border-radius: 50%;
-    }
-
-    .main-home section article div i {
-        font-size: 17px;
-        color: var(--Verde);
-        margin: 3px;
-
-    }
-
-    .main-home section .precios-home {
-        font-size: var(--precios);
-
-    }
-
-    .main-home section .descuentos-home {
-        font-size: var(--descuentos);
-        color: var(--Verde);
-        font-weight: lighter;
-    }
-
-    .main-home section .descripcion-home {
-        font-size: var(--descripciones);
-        margin-top: 10px;
-        display: none;
-    }
+.header-home nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: var(--cuerpo-de-t);
 
 }
 
-/*Tablet*/
+.header-home nav .segunda-lista i {
+    display: inline;
+}
 
-@media (min-width: 368px) and (max-width: 1024px) {
-    .header-home {}
+.burger-menu {
+    background-color: var(--celeste);
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 41%;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.burger-menu i {
+    padding-top: 11px;
+    color: var(--Grisclaro);
+    font-size: 30px;
+}
+
+.header-home figure img {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Tablets*/
+
+@media (min-width: 360px) and (max-width:768px) {
+    .header-home {
+        /* width: 100%; */
+    }
 
     .header-home img {
-        width: 70%;
-        margin-left: 5%;
+        margin: 27px 2px;
+        margin-right: 0px;
+        width: 29.43%;
     }
 
     .header-home form {
-        margin-left: 8%;
-        display: flex;
+        width: 28%;
+        position: absolute;
+        display: inline-flex;
+        margin-left: 0%;
+        top: 58px;
     }
 
     .header-home form input {
-        width: 30%;
+        padding: 2px;
+        /* border-radius: 0px; */
+        border: none;
     }
 
-    .header-home form div {
-    width: 30px;
-    border: solid 0.5px;
-    background-color: var(--Grisclaro);
-    margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .header-home .logo-busqueda {
+        border: solid 0.2px;
+        background-color: var(--Grisclaro);
+        margin-left: 2%;
+        width: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-    .header-home form div i {
-    margin-left: 6px;
-}
+    .header-home .logo-busqueda i {}
+
 
     .header-home form .burger-menu {}
 
     .header-home form .burger-menu i {}
 
-    .header-home h4 {position: relative;left: 55%;}
+    .header-home h4 {
+        position: absolute;
+        width: 42%;
+        font-size: small;
+        top: 8%;
+        right: 0%;
+        padding: 0px;
+        /* margin-top: -16px; */
+    }
 
-    .header-home h4 i {
-    display: inline;
-}
+    .header-home h4 i {}
 
 
 
     .header-home nav {
-}
+        display: flex;
+        width: 117%;
+    }
 
     .header-home nav ul {
-        display: inline-block;
+        display: inline-flex;
+        width: 48%;
         list-style: none;
+        font-size: small;
     }
 
     .header-home nav ul li {
-    text-decoration: none;
-}
+        margin-left: 22px;
+    }
 
     .header-home nav ul li a {
-    text-decoration: none;
-    color: black;
-}
+        text-decoration: none;
+        color: black;
+    }
 
     .header-home nav .segunda-lista {
-    padding-bottom: 23px;
-}
-
-    .header-home  .segunda-lista li {}
-
-    .header-home  .segunda-lista li a {
-    width: 710px;
-    height: 0px;
-}
-.header-home  .segunda-lista li a i{
-    
-display: inline;
-}
-
-
-    .header-home .burger-menu {
-    display: none;
-}
-
-    .header-home .burger-menu i {}
-
-    .header-home figure {}
-
-    .header-home figure img {
-    width: 100%;
-    margin: 0px;
-}
-    /*main*/
-
-    .main-home {}
-
-    .main-home section {}
-
-    .main-home section h4 {}
-
-    .main-home section article {}
-
-    .main-home section article img {}
-
-    .main-home section article h5 {}
-
-    .main-home section article .precios-home {}
-
-    .main-home section article .descuentos-home {}
-
-    .main-home section article .descripcion-home {
-        display: inline-block;
+        /* margin-left: 18%; */
+        /* position: absolute; */
     }
-
-    .main-home p {}
-}
-
-
-/*Desktop*/
-
-@media (min-width:1024px) {
-    .header-home {}
-
-    .header-home img {}
-
-    .header-home form {}
-
-    .header-home form input {}
-
-    .header-home form input div {}
-
-    .header-home form input div i {}
-
-    .header-home h4 {}
-
-    .header-home h4 i {}
-
-    .header-home nav {}
-
-    .header-home nav ul {
-        display: inline-block;
-    }
-
-    .header-home nav ul li {}
-
-    .header-home nav ul li a {}
-
-
-
-    .header-home nav .segunda-lista {}
 
     .header-home nav .segunda-lista li {}
 
     .header-home nav .segunda-lista li a {}
 
 
+
     .header-home .burger-menu {
         display: none;
     }
@@ -315,26 +205,120 @@ display: inline;
 
     .header-home figure {}
 
-    .header-home figure img {}
+    .header-home figure img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+    }
 
-
-    .main-home {}
-
-    .main-home section h4 {}
 }
 
-.main-home section article {}
 
-.main-home section article img {}
+/*Deskopt*/
 
-.main-home section article div {}
+@media (min-width:770px) {
+    .header-home {
+        /* width: 100%; */
+    }
 
-.main-home section article div i {}
+    .header-home img {
+        margin: 27px 14px;
+        margin-right: 0px;
+        width: 29.43%;
+    }
 
-.main-home section article .precios-home {}
+    .header-home form {
+        width: 300px;
+        position: absolute;
+        display: inline-flex;
+        margin-left: 6%;
+        top: 58px;
+    }
 
-.main-home section article .descuentos-home {}
+    .header-home form input {
+        padding: 2px;
+        /* border-radius: 0px; */
+        border: none;
+    }
 
-.main-home section article .descripcion-home {
-    display: inline-block;
+    .header-home .logo-busqueda {
+        border: solid 0.2px;
+        background-color: var(--Grisclaro);
+        margin-left: 2%;
+        width: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-home .logo-busqueda i {}
+
+
+    .header-home form .burger-menu {}
+
+    .header-home form .burger-menu i {}
+
+    .header-home h4 {
+        position: absolute;
+        width: 42%;
+        font-size: small;
+        top: 8%;
+        left: 70%;
+        padding: 0px;
+        /* margin-top: -16px; */
+    }
+
+    .header-home h4 i {}
+
+
+
+    .header-home nav {
+        display: flex;
+        width: 117%;
+    }
+
+    .header-home nav ul {
+        display: inline-flex;
+        width: 48%;
+        list-style: none;
+        font-size: small;
+    }
+
+    .header-home nav ul li {
+        margin-left: 22px;
+    }
+
+    .header-home nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header-home nav .segunda-lista {
+        margin-left: 68%;
+        position: absolute;
+    }
+
+    .header-home nav .segunda-lista li {}
+
+    .header-home nav .segunda-lista li a {}
+
+
+
+    .header-home .burger-menu {
+        display: none;
+    }
+
+    .header-home .burger-menu i {}
+
+    .header-home figure {}
+
+    .header-home figure img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+
+
+
 }
