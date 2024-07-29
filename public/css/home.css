@@ -19,26 +19,14 @@
 }
 
 .main-home article {
-
     border-top: 1px solid #ebebeb;
-
     padding: 38px;
-
-    /* margin-left: 87px; */
-
-    /* display: flex; */
-
     justify-content: center;
-
     margin-bottom: 10px;
-
-    /* flex: 1; */
-
 }
 
 .main-home section img {
     width: 100%;
-    /* height: auto; */
 }
 
 .main-home section article {}
@@ -62,6 +50,7 @@
     margin: 3px;
 }
 
+
 .main-home section .precios-home {
     font-size: var(--precios);
     display: inline-block;
@@ -77,28 +66,16 @@
 .main-home section .descripcion-home {
     font-size: var(--descripciones);
     margin-top: 10px;
-    /* display: none; */
     font-weight: lighter;
     color: var(--Grisoscuro);
 }
 
 @media (min-width: 360px) and (max-width:768px) {
 
-    /*MAIN*/
+    /*main*/
 
     .main-home {
-
         justify-content: center;
-
-        /* display: flex; */
-
-        /* flex-wrap: wrap; */
-
-        /* align-content: center; */
-
-        /* flex-grow: 1; */
-
-        /* width: 100%; */
     }
 
     .main-home section {
@@ -110,8 +87,6 @@
     }
 
     .main-home section h4 {
-        /* height: 0px; */
-        /* margin-bottom: 2px; */
         display: flex;
         flex-wrap: wrap;
         flex: 0 0 100%;
@@ -149,6 +124,7 @@
         color: var(--Verde);
         margin: 3px;
     }
+  
 
     .precios-home {
         font-size: var(--precios);
@@ -166,8 +142,11 @@
     .main-home section .descripcion-home {
         font-size: var(--descripciones);
         margin-top: 10px;
-        /* display: none; */
     }
+    .main-home section article:hover .descripcion-home{
+        display: block;
+    } 
+
 
 
 
@@ -180,21 +159,10 @@
 }
 
 @media (min-width:770px) {
-    /*MAIN*/
+    /*main*/
 
     .main-home {
-
         justify-content: center;
-
-        /* display: flex; */
-
-        /* flex-wrap: wrap; */
-
-        /* align-content: center; */
-
-        /* flex-grow: 1; */
-
-        /* width: 100%; */
     }
 
     .main-home section {
@@ -206,8 +174,6 @@
     }
 
     .main-home section h4 {
-        /* height: 0px; */
-        /* margin-bottom: 2px; */
         display: flex;
         flex-wrap: wrap;
         flex: 0 0 100%;
@@ -246,10 +212,14 @@
         color: var(--Verde);
         margin: 3px;
     }
+    .main-home section article div i:hover{
+        transition: 1s;
+        transform: rotate(-90deg);
+         
+    }
 
     .precios-home {
         font-size: var(--precios);
-        /* display: inline-block; */
     }
 
     .main-home section .descuentos-home {
@@ -259,19 +229,17 @@
         color: var(--Verde);
         font-weight: lighter;
         display: inline-block;
-        /* margin-left: 40%; */
     }
 
     .main-home section .descripcion-home {
         font-size: var(--descripciones);
         margin-top: 10px;
-        /* display: none; */
+        display: none;
     }
 
-
-
-
-
+    .main-home section article:hover .descripcion-home{
+        display: block;
+    } 
 
     .main-home section .ofertas {
         width: 0px;
